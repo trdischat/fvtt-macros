@@ -1,0 +1,1 @@
+@Drawing[Split] @Trigger[capture] @ChatMessage[/BreakOut "Breakout Name"]
