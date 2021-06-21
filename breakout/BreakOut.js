@@ -1,7 +1,7 @@
 // Collect user and breakout names, then launch breakout
 // Run this macro NOT as GM
-const userId = game.userId || args[1];           // id of the user to send to breakout
-const rmStr = args[0].hashCode();                // hash the room name
+const userId = args[1] || game.userId;           // id of the user to send to breakout
+const rmStr = args[0].hashCode();                // hash the breakout room name
 const gmStr = game.world.data.title.hashCode();  // hash the world title
 let x = new Date();
 x.setTime(x.valueOf() + ( 60000 * x.getTimezoneOffset() ));
