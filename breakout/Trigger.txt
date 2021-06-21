@@ -1,1 +1,3 @@
-@Drawing[Split] @Trigger[capture] @ChatMessage[/BreakOut "Breakout Name"]
+@Drawing[SplitTheParty] @Trigger[capture] @ChatMessage[/BreakOut "Breakout Name"]
+
+@Drawing[RejoinTheParty] @Trigger[capture] @ChatMessage[/BreakOut]
